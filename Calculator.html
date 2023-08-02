@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Calculator.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="darkMode">
+        <div class="toggleMode">
+          <i class="toggleIcon"></i>
+          <input type="text" id="inputBox" placeholder="0" />
+          <div class="buttons">
+            <table>
+              <tr>
+                <td><button class="btn-opperator" id="clear">c</button></td>
+                <td><button class="btn-opperator" id="/">/</button></td>
+                <td><button class="btn-opperator" id="*">*</button></td>
+                <td><button class="btn-opperator" id="back">></button></td>
+              </tr>
+              <tr>
+                <td><button class="btn-number" id="seven">7</button></td>
+                <td><button class="btn-number" id="eight">8</button></td>
+                <td><button class="btn-number" id="nine">9</button></td>
+                <td><button class="btn-number" id="minus">-</button></td>
+              </tr>
+              <tr>
+                <td><button class="btn-number" id="four">4</button></td>
+                <td><button class="btn-number" id="five">5</button></td>
+                <td><button class="btn-number" id="six">6</button></td>
+                <td><button class="btn-opperator" id="add">+</button></td>
+              </tr>
+              <tr>
+                <td><button class="btn-number" id="one">1</button></td>
+                <td><button class="btn-number" id="two">2</button></td>
+                <td><button class="btn-number" id="three">3</button></td>
+                <td rowspan="2">
+                  <button class="btn-opperator" id="equal">=</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn-opperator" id="percentage">%</button>
+                </td>
+                <td><button class="btn-number" id="zero">0</button></td>
+                <td><button class="btn-opperator" id="dot">.</button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Calculaor.js"></script>
+  </body>
+</html>
